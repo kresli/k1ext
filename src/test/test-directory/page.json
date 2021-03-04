@@ -1,4 +1,7 @@
 {
-    "title": "{{$resources.data.title}}",
-    "age": "{{$resources.data.age}}"
+  "valid_value": "$resources.somedata",
+  "title": "{{$resources.data.title}}",
+  "age": "{{$resources.data.age}}",
+  "pageTitle": "{{$page.title}}",
+  "break": "{{$page.break}}"
 }

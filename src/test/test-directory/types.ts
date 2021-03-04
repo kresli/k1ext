@@ -6,4 +6,5 @@ export interface $resources {
 
 export interface $page {
   title: string;
+  break: number;
 }

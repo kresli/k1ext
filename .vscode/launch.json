@@ -10,6 +10,8 @@
 			"type": "extensionHost",
 			"request": "launch",
 			"args": [
+				"${workspaceFolder}/src/test/test-directory",
+				"${workspaceFolder}/src/test/test-directory/page.json",
 				"--extensionDevelopmentPath=${workspaceFolder}"
 			],
 			"outFiles": [
